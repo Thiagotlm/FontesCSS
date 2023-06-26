@@ -1,0 +1,49 @@
+/*Usando o método font face
+@font-face{
+    font-family: roboto;
+  src: url(font/Roboto-Light.ttf);  
+}
+*{
+font-family: roboto;
+}*/
+
+@import url("global.css");
+
+p{
+    font-weight: bold;
+    font-style: italic;
+}
+
+li{
+    font-size: 20px;
+}
+#exemplo1{
+    font-variant: small-caps;
+}
+#line-height{
+    line-height: 1.5;
+}
+#text-transform{
+    text-transform: uppercase;
+}
+.exemplo{
+    padding: 10px;
+    width: 370px;
+    border: 1px solid black;
+    background-color: lightgrey;
+    text-align: justify;
+}
+#text-align{
+    padding: 10px;
+    background-color: lightgrey;
+    text-align: justify;
+}
+#text-decoration-line{
+    text-decoration-line:underline;
+}
+#text-decoration-style{
+    text-decoration-style: wavy;
+}
+#text-decoration-color{
+    text-decoration-color: red;
+}
